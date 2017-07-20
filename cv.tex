@@ -3,6 +3,60 @@
 
 \usepackage{pagecounting}
 \usepackage[dvips]{color}
+\usepackage{natbib,natbibspacing}
+
+% Bibliography definitions
+\def\aj{AJ}
+\def\araa{ARA\&A}
+\def\apj{ApJ}
+\def\apjl{ApJL}
+\def\apjs{ApJS}
+\def\ao{Appl.~Opt.}
+\def\apss{Ap\&SS}
+\def\aap{A\&A}
+\def\aapr{{A\&A~Rev.}}
+\def\aaps{{A\&AS}}
+\def\azh{{AZh}}
+\def\baas{{BAAS}}
+\def\jrasc{{JRASC}}
+\def\memras{{MmRAS}}
+\def\mnras{MNRAS}
+\def\pra{{Phys.~Rev.~A}}
+\def\prb{{Phys.~Rev.~B}}
+\def\prc{{Phys.~Rev.~C}}
+\def\prd{{Phys.~Rev.~D}}
+\def\pasp{{PASP}}
+\def\pasj{{PASJ}}
+\def\qjras{{QJRAS}}
+\def\skytel{{S\&T}}
+\def\solphys{{Sol.~Phys.}}
+\def\sovast{{Soviet~Ast.}}
+\def\ssr{{Space~Sci.~Rev.}}
+\def\zap{{ZAp}}
+\def\nat{Nature}
+\def\iaucirc{{IAU~Circ.}}
+\def\aplett{{Astrophys.~Lett.}}
+\def\apspr{{Astrophys.~Space~Phys.~Res.}}
+\def\bain{{Bull.~Astron.~Inst.~Netherlands}}
+\def\fcp{{Fund.~Cosmic~Phys.}}
+\def\gca{{Geochim.~Cosmochim.~Acta}}
+\def\grl{{Geophys.~Res.~Lett.}}
+\def\jcp{{J.~Chem.~Phys.}}
+\def\jgr{{J.~Geophys.~Res.}}
+\def\jqsrt{{J.~Quant.~Spec.~Radiat.~Transf.}}
+\def\memsai{{Mem.~Soc.~Astron.~Italiana}}
+\def\nphysa{{Nucl.~Phys.~A}}
+\def\nphysbproc{{Nucl.~Phys.~B (Proc. Suppl.)}}
+\def\physrep{{Phys.~Rep.}}
+\def\physscr{{Phys.~Scr}}
+\def\planss{{Planet.~Space~Sci.}}
+\def\procspie{{Proc.~SPIE}}
+\let\astap=\aap
+\let\apjlett=\apjl
+\let\apjsupp=\apjs
+
+
+
 
 \font\cap=cmcsc10
 
@@ -39,7 +93,7 @@
 \rhead{\textcolor{gray}{\thepage/\totalpages{}}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancyfoot[C]{\footnotesize \textcolor{gray}{http://www.astro.washington.edu/users/yoachim/}}
+\fancyfoot[C]{\footnotesize \textcolor{gray}{http://staff.washington.edu/yoachim/}}
 %set the number in the second set of curly braces to the number you want displayed on
 %the first page
 %setcounter{page}{2}
@@ -77,332 +131,23 @@ E-mail: yoachim@uw.edu\\
 %Citizenship:  United States
 
 
-\sectiontitle{Education}
-\employer{University of Washington}
-\location{Aug. 2007}
-%Seattle WA, USA\\
-Ph.D. in Astrophysics\\
-Thesis Title:  ``Thick Disks in External Galaxies''\\
-Thesis Advisor:  Julianne J. Dalcanton
+\input{education}
 
-\employer{University of Washington}
-\location{June 2002}
-%Seattle WA, USA\\
-M.S. in Astrophysics
+\input{honors}
 
-\employer{University of California, Berkeley}
-\location{Dec. 2000}
-%Berkeley CA, USA\\
-B.A. in Astrophysics
+\input{teaching}
 
+\input{students}
 
-\sectiontitle{Honors\\ and Awards}
-Harlan J. Smith Postdoctoral Fellow, McDonald Observatory \location{2007-2010}\\
-Outstanding Dissertation Award (Physical Sciences), University of Washington \location{2008}
-\\
-Nominated for National CGS/UMI Distinguished Dissertation \location{2008}
-\\
-ARCS Fellow, University of Washington \location{2001-2004}
+\input{research}
 
-\sectiontitle{Teaching\\Experience}
-%\markright{{\it Curriculum Vitae, Peter Yoachim}
-%\hspace{10mm}}
+\input{proposals}
 
-\employer{Lecturer, U. Texas}
-\location{2010}
-Taught 10 week graduate student observing course including \\
-9 night observing run at McDonald Observatory using the\\
- 0.8m, 2.1m, and 2.7m telescopes
+\input{publications}
 
-\employer{Teaching Assistant, U. Washington}
-\location{8 courses, 2001 -- 2006}
-Conducted discussion sections for introductory Astronomy courses
-
-\employer{Guest Lecturer, U. Washington}
-\location{2003 -- 2006}
-Developed five lectures and accompanying exercises on IDL
-
-\employer{Planetarium Presenter, U.C. Berkeley}
-\location{1999 -- 2001}
-Developed and presented shows for Lawrence Hall of Science
-
-\employer{Oakland Community Networking Project, U.C. Berkeley}
-\location{1997-1999} 
-Worked with NPOs to improve their internet access and usage
-
-\sectiontitle{Mentored \\ Students}
-
-\employer{}Meagan Albright, U. Washington undergraduate
-\location{2011-present}
-GALAX UV Observations of Red Spirals
-
-\employer{}Denise Schmitz, U. Washington undergraduate
-\location{2011-present}
-Defining a Sample of Nearby Massive Galaxies
-
-\employer{}Meghin Spencer, U. Washington undergraduate
-\location{2011-2012}
-DIS observations of M 106 satellite galaxies
-
-\employer{}Matt Shane, U. Texas undergraduate
-\location{2009-2010}
-SDSS study of satellite galaxies in Stripe 82, AAS poster
-
-\employer{}Les McCommas, U. Washington undergraduate
-\location{2007-2009}
-HST Cepheid distance to M81, ApJ publication
-
-\employer{}Pre-MAP Program, U. Washington
-\location{2006-2007}
-Advised freshmen in the pre-Major in Astronomy Program
- 
-
-\employer{}Brian Stephanik, U. Washington undergraduate
-\location{2005}
-Gemini imaging of edge-on galaxies
-
-
-
-\sectiontitle{Research\\Experience}
-
-{\sc LSST Science Fellow}
-\location{2010-present}
-Simulations of the LSST photometric calibration 
-
-{\sc Harlan J. Smith McDonald Observatory Postdoctoral Fellow}
-\location{2007--2010}
-Observational studies of galaxy formation
-
-{\sc Graduate Student Researcher, U. Washington}
-\location{2001 -- 2007}
-Supervisor: Julianne J. Dalcanton \\
-Photometric and spectroscopic studies of edge-on disk galaxies
-
-{\sc Undergraduate Researcher, Lawrence Berkeley Laboratory}
-\location{1998-2001}
-Supervisor: Mike Levi \\
-Monte Carlo simulations of observing strategies for the SNAP space telescope
-
-{\sc Undergraduate Researcher, UC Berkeley}
-\location{1999-2000}
-Supervisor: Rich Muller\\
-Correlations of Earth's orbital parameters with global climate
-
-
-%\sectiontitle{Research\\Groups}
-%\employer{VENGA}
-%\location{2009-present}
-%The VIRUS-P Exploration of Nearby Galaxies collaboration has 30 members and is working on an IFU survey of 30 nearby galaxies.  I am currently working on the edge-on galaxies observed in this sample.  Data collection is complete and initial papers are being published.
-
-%\employer{MaNGA}
-%\location{2011-present}
-%The Mapping Nearby Galaxies at APO collaboration is a proposed survey to use the BOSS spectrograph on the SDSS telescope to observe $\sim$10,000 galaxies.  Prototype observations are being taken and MaNGA is an After Sloan 3 project expected to start observing in 2014.
-
-%\employer{LSST}
-%\location{2010-present}
-%The Large Synoptic Survey Telescope is scheduled to start observations in 2019.  I am involved in the photometric calibration simulations, as well as developing a relative astrometric pipeline for LSST.  I am also a member of the LSST Galaxies science group as well as the LSST Dark Energy Collaboration.
-
-
-
-%\sectiontitle{Observing\\Experience}
-%IFU Spectroscopy (\textit{McDonald Observatory})\\
-%Near-Infrared Spectroscopy (\textit{Gemini North and South, Apache Point Observatory})\\
-%Optical Spectroscopy (\textit{Apache Point Observatory})\\
-%Optical and Infrared Photometry (\textit{Apache Point Observatory})\\
-%Archival Observations (\textit{SDSS, HST, OGLE, Gemini})\\
-
-
-%\sectiontitle{Skills}
-%\employer{Extensive experience with IDL and IRAF/Pyraf including:}\\
-%Reduction of optical and near-IR photometry and spectroscopy\\
-%Distributed computing utilizing the Condor system\\
-%Monte Carlo techniques\\
-%Levenberg-Marquardt least-squares fitting for 2-d images\\
-%Principle Component Analysis
-
-\sectiontitle{Service \&\\Outreach}
-
-%xxx-if I get into the LSST collaboration, that should go here.
-
-\employer{Guest Blogger}
-\location{2010}
-Science blog posts for {\it Galaxy Zoo} and {\it If We Assume}
-
-\employer{Frank N. Bash Symposium}
-\location{2009}
-Local organizing committee chair and scientific organizing committee 
-member %for a conference showcasing invited talks by current postdocs\\
-%working in all areas of astronomy.
-
-\employer{IDL Library Development}
-\location{2008 -- present}
-Developed, maintained, and distributed IDL libraries including \\
-statistical packages and specialized curve fitting routines
-
-\employer{Referee, Astronomical Journal}
-\location{2006 -- present}
-Refereed papers on disk galaxy formation
-
-\employer{Planetarium Outreach, U. Washington}
-\location{2001 -- 2007}
-Gave planetarium shows to visiting student groups 
-
-\employer{Astronomy Open house, U. Washington}
-\location{2001 -- 2007}
-Gave lectures and demonstrations at the department's annual public open house
-
-\employer{Stargazing Nights, UC Berkeley}
-\location{1999-2001}
-Ran stargazing nights for the general public at Lawrence Hall of Science
-
-\sectiontitle{Proposals \&\\Grants}
-
-{\sc Satellite Galaxies of M106}
-\location{2010-2011}
-PI on 5+ half-nights with the Apache Point Observatory 3.5m
-
-{\sc IFU Observations of Spiral Galaxies}
-\location{2007-2010}
-PI on 44+ nights at McDonald Observatory
-%total mcdonald log at /home/prawn/yoachim/Data/VIRUS
-
-{\sc Ages and Metallicities of Thick Disk Stars}
-\location{2003-2006}
-PI on 60+ nights of observations with the Apache Point Observatory 3.5m
-
-{\sc Astronomical Storage and Distributed Computing Optimization}
-\location{ 2002}%\location{February 2002}
-PI for UW Student Technology Fee Fund, \$80K
-
-{\sc The Dynamics of Thick Disks: Constraining Galaxy Evolution}
-\location{2003-2005}
-PI for five semesters of Gemini North and South observations
-
-%{\sc AAS Travel Grants}
-%\location{2005-2008}
-%Funding for four international conferences
-%________________________________________________________
-
-
-
-%\newpage
-
-%\sectiontitle{References}%
-%{\sc Professor Julianne J. Dalcanton}\\
-%Department of Astronomy\\
-%University of Washington\\
-%Seattle WA 98195-1580\\
-%206-685-2155 \\
-%jd@astro.washington.edu
-
-%{\sc Professor Victor Debattista} \\
-%Jeremiah Horrocks Institute for Astrophysics and Supercomputing \\
-%University of Central Lancashire \\
-%Preston, UK PR1 2HE \\
-%Telephone: +44 (0)177 289 3568\\
-%vpdebattusta@uclan.ac.uk
-
-%{\sc Professor Karl Gebhardt} \\
-%Astronomy Department \\
-%1 University Station, C1400 \\
-%University of Texas \\
-%Austin, TX 78712 \\
-% 512-471-1473 \\
-%gebhardt@astro.as.utexas.edu
-
-
-%\newpage
-%\markright{{\it Publications List, Peter Yoachim}}
-
-%
-%\sectiontitle{Refereed\\Publications}
-
-%{\sc Ages and Metallicities of Thick Disks From Lick Indices}\\
-%{\bf Yoachim, P.}, \& Dalcanton, J.~J. {\em in prep}
-
-%{\sc Kinematics of Thick Disks in External Galaxies II}\\
-%{\bf Yoachim, P.}, \& Dalcanton, J.~J. {\em in prep}
-
-%{\sc Stellar Population Gradients in Disk Galaxies}\\
-%{\bf Yoachim, P.}, \& Dalcanton, J.~J. {\em in prep}
-
-%{\sc Structural Parameters of Thin and Thick Disks in Edge-on Disk Galaxies}\\
-%{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2006, {\em AJ}, 131, 226
-
-%{\sc The Kinematics of Thick Disks in External Galaxies}\\
-%{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2005, {\em ApJ}, 624, 701
-
-%{\sc The Formation of Dust Lanes: Implications for Galaxy Evolution}\\
-%Dalcanton, J.~J., {\bf Yoachim, P.}, \& Bernstein, R.~A. 2004, {\em ApJ}, 608, 189
-
-
-
-%\newpage
-
-\sectiontitle{Refereed\\Publications}
-
-{\sc The Milky Way Tomography with Sloan Digital Sky Survey. IV. Dissecting Dust}\\
-Berry, M., and 29 others,{\bf Yoachim, P.}, 2012 {\em ApJ}, 757,  166
-
-{\sc Spatially Resolved Spectroscopic Star Formation Histories of nearby Disks: Hints of Stellar Migration} \\
-{\bf Yoachim, P.}, Ro{\v s}kar, R., \& Debattista, V.~P.\  2012 {\em ApJ}, 752,  97
-
-{\sc IFU Spectroscopy of the Stellar Disk Truncation Region of NGC 6155} \\
-{\bf Yoachim, P.},  Debattista, V., Ro{\v s}kar, R., 2010 {\em ApJL}, 716, L4
-
-{\sc A Panoply of Cepheid Light Curve Templates}\\
-{\bf Yoachim, P.}, McCommas, L.,Williams, B., Dalcanton, J.~J. 2009 {\em AJ}, 137, 4697
-
-{\sc The ACS Nearby Galaxy Survey Treasury III:  Cepheids in the Outer Disk of M81}\\
- McCommas, L., {\bf Yoachim, P.}, Dalcanton, J.~J., Williams, B., Davis, M., Dolphin, A.E. 2009 {\em AJ}, 137, 4707
-
-{\sc Lick Indices in the Thin and Thick Disks of Edge-On Disk Galaxies}\\
-{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2008 {\em ApJ}, 683, 707
-
-{\sc The Kinematics of Thick Disks in Nine External Galaxies}\\
-{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2008 {\em ApJ}, 682, 1004
-
-{\sc Structural Parameters of Thin and Thick Disks in Edge-on Disk Galaxies}\\
-{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2006, {\em AJ}, 131, 226
-
-{\sc The Kinematics of Thick Disks in External Galaxies}\\
-{\bf Yoachim, P.}, \& Dalcanton, J.~J. 2005, {\em ApJ}, 624, 701
-
-{\sc The Formation of Dust Lanes: Implications for Galaxy Evolution}\\
-Dalcanton, J.~J., {\bf Yoachim, P.}, \& Bernstein, R.~A. 2004, {\em ApJ}, 608,
-189
-
-\sectiontitle{Submitted\\Publications}
-{\sc The VIRUS-P Exploration of Nearby Galaxies (VENGA):  Survey Design, Data Processing, and the Discovery of Radial Gas Inflow and a Low Luminosity AGN in NGC 628}\\
-Blanc, G, (14 others), {\bf Yoachim, P.}, submitted to {\it ApJ}
-
-\sectiontitle{ \emph{In Prep} \\ Publications}
-
-{\sc Star Formation Histories of Red Spiral Galaxies} \\
-{\bf Yoachim, P.}, Masters, K., Jardel, J., and the Galaxy Zoo
-
-
-%{\sc Satellite Galaxies Observed in SDSS Stripe 82} \\
-%{\bf Yoachim, P.}, Shane, M.
-
-{\sc Satellite Dynamics of M106}\\
-Spencer, M., {\bf Yoachim, P.}, Loebman, S.
-
-{\sc Origin of Extreme GLSB Galaxies:  IFU observations of Malin 2}\\
-{\bf Yoachim, P.}, Debattista, V., Blanc, G., Heiderman, A.
-
-%{\sc $BVI$ Cepheid Light Curve Templates}\\
-%{\bf Yoachim, P.}, Macri, L.
-
-%{\sc VENGA IV:  Diffuse Ionized Gas in Nearby Edge-On Galaxies}\\
-%{\bf Yoachim, P.}, Blanc, G., and the VENGA collaboration.
-
-
-{\sc Observations of Intergalactic Gas Accretion} \\
-Radburn-Smith, D., {\bf Yoachim, P.},  Blanc, G.
-
-%{\sc VIRUS-P Observations of ANGST Galaxies}\\
-%{\bf Yoachim, P.}, Gilbert, K., Dalcanton, J.
+\nocite{*}
+\bibliographystyle{apj}
+\bibliography{publications}
 
 
 
