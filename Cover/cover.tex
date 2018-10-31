@@ -1,0 +1,68 @@
+
+% Cover letter using letter.cls
+\documentclass[12pt]{letter}
+\usepackage{graphicx}
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\topmargin=-1.2in    % Make letterhead start about 1 inch from top of page
+\headheight .75in
+\headsep 0pt
+\textheight=9in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+
+\begin{document}
+
+\signature{\epsfig{file=signature1.ps, width=2in}\\ Peter Yoachim}                  % name for signature 
+\longindentation=0pt                     % needed to get closing flush left
+\let\raggedleft\raggedright              % needed to get date flush left
+ 
+\begin{letter}{}
+
+\begin{center}
+{\large\bf {\Large{Peter Yoachim}}} \\
+{  Box 351580, U.W. 
+ Seattle, WA 98195-1580\\ (206) 419-3513 $\bullet$\ yoachim@uw.edu} 
+\end{center} \vfill % forces letterhead to top of page
+ 
+\opening{UW Bothell Search Committee,}
+
+I am writing to apply for your tenure track faculty position advertised in the AAS job register.  I received my Ph.D. in Astrophysics from the University of Washington Astronomy Department in 2007, was the Harlen J. Smith Postdoctoral Fellow at the University of Texas, and am currently an LSST Science Fellow at the University of Washington. 
+
+As a member of the LSST collaboration, I'm excited to see that Dearborn has access to the Magellan telescopes which would be ideal for spectroscopic follow-up of transient objects.  I'm also eager to apply to Dearborn because I have had great success the last few years mentoring undergraduate research projects and would be happy to continue at an undergraduate focused institution.
+
+
+I'll be at the AAS meeting in Long Beach in January and would be happy to chat other times as well.
+
+
+Sincerely,\\
+\includegraphics[scale=1]{/Users/yoachim/sig2.png}
+ 
+
+
+%\encl{I have enclosed my CV, list of references, teaching statement, graduate transcript, and research statement. }
+
+%\encl{I have enclosed my CV
+%and graduate transcripts.  I have requested letters of
+%recommendation be sent from Drs. Victor Debattista and Julianne Dalcanton.  }  % Enclosures
+
+
+
+
+
+
+
+
+\end{letter}
+ 
+
+
+
+\end{document}
+
+
+
+
+% LocalWords:  AAS Ph LSST Wheaton Dearborn
