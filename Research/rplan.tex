@@ -1,0 +1,401 @@
+%\documentstyle[11pt,a4]{article}
+%\documentclass[a4paper]{article}
+\documentclass[letterpaper, 11pt]{article}
+% Seems like it does not support 9pt and less. Anyways I should stick to 10pt.
+%\documentclass[a4paper, 9pt]{article}
+\topmargin-2.0cm
+
+%\newcommand{\upcite}[1]{{\scriptsize{$^{\cite{#1}}$}}}
+\newcommand{\upcite}[1]{{\scriptsize{\textsuperscript{\cite{#1}}}}}
+
+
+\usepackage{fancyhdr}
+\usepackage{pagecounting}
+\usepackage[dvips]{color}
+\usepackage{natbib,natbibspacing}
+\usepackage{epsfig}
+\def\arcsec{$^{\prime\prime}$}
+
+
+% Bibliography definitions
+\def\aj{AJ}
+\def\araa{ARA\&A}
+\def\apj{ApJ}
+\def\apjl{ApJL}
+\def\apjs{ApJS}
+\def\ao{Appl.~Opt.}
+\def\apss{Ap\&SS}
+\def\aap{A\&A}
+\def\aapr{{A\&A~Rev.}}
+\def\aaps{{A\&AS}}
+\def\azh{{AZh}}
+\def\baas{{BAAS}}
+\def\jrasc{{JRASC}}
+\def\memras{{MmRAS}}
+\def\mnras{MNRAS}
+\def\pra{{Phys.~Rev.~A}}
+\def\prb{{Phys.~Rev.~B}}
+\def\prc{{Phys.~Rev.~C}}
+\def\prd{{Phys.~Rev.~D}}
+\def\pasp{{PASP}}
+\def\pasj{{PASJ}}
+\def\qjras{{QJRAS}}
+\def\skytel{{S\&T}}
+\def\solphys{{Sol.~Phys.}}
+\def\sovast{{Soviet~Ast.}}
+\def\ssr{{Space~Sci.~Rev.}}
+\def\zap{{ZAp}}
+\def\nat{Nature}
+\def\iaucirc{{IAU~Circ.}}
+\def\aplett{{Astrophys.~Lett.}}
+\def\apspr{{Astrophys.~Space~Phys.~Res.}}
+\def\bain{{Bull.~Astron.~Inst.~Netherlands}}
+\def\fcp{{Fund.~Cosmic~Phys.}}
+\def\gca{{Geochim.~Cosmochim.~Acta}}
+\def\grl{{Geophys.~Res.~Lett.}}
+\def\jcp{{J.~Chem.~Phys.}}
+\def\jgr{{J.~Geophys.~Res.}}
+\def\jqsrt{{J.~Quant.~Spec.~Radiat.~Transf.}}
+\def\memsai{{Mem.~Soc.~Astron.~Italiana}}
+\def\nphysa{{Nucl.~Phys.~A}}
+\def\nphysbproc{{Nucl.~Phys.~B (Proc. Suppl.)}}
+\def\physrep{{Phys.~Rep.}}
+\def\physscr{{Phys.~Scr}}
+\def\planss{{Planet.~Space~Sci.}}
+\def\procspie{{Proc.~SPIE}}
+\let\astap=\aap
+\let\apjlett=\apjl
+\let\apjsupp=\apjs
+
+% Color Information from - http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_advanced/node13.html
+
+% NEW COMMAND
+% marginsize{left}{right}{top}{bottom}:
+%\marginsize{3cm}{2cm}{1cm}{1cm}
+%\marginsize{0.85in}{0.85in}{0.625in}{0.625in}
+
+\advance\oddsidemargin-0.65in
+%\advance\evensidemargin-1.5cm
+\textheight9.2in
+\textwidth6.75in
+\newcommand\bb[1]{\mbox{\em #1}}
+\def\baselinestretch{1.05}
+%\pagestyle{empty}
+
+\newcommand{\hsp}{\hspace*{\parindent}}
+\definecolor{gray}{rgb}{0.3,0.3,0.3}
+%\definecolor{gray}{rgb}{1.0,1.0,1.0}
+
+\usepackage{sidecap}
+
+
+\linespread{1}
+
+\begin{document}
+\thispagestyle{fancy}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text} 
+% Leave Left and Right Header empty.
+\lhead{}
+\rhead{}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+\fancyfoot[C]{\footnotesize \textcolor{gray}{http://staff.washington.edu/yoachim/}} 
+
+%\pagestyle{myheadings}
+%\markboth{Sundar Iyer}{Sundar Iyer}
+
+\pagestyle{fancy}
+\lhead{\textcolor{gray}{\it Peter Yoachim}}
+\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+%\renewcommand{\headrulewidth}{0pt} 
+%\renewcommand{\footrulewidth}{0pt} 
+%\fancyfoot[C]{\footnotesize } 
+%\ref{TotPages}
+
+% This kind of makes 10pt to 9 pt.
+%\begin{small}
+
+%\vspace*{0.1cm}
+\begin{center}
+{\Large \bf RESEARCH STATEMENT}\\
+\vspace*{0.1cm}
+{\normalsize Peter Yoachim (yoachim@uw.edu)}
+\end{center}
+%\vspace*{0.2cm}
+
+
+
+Simulations can successfully reproduce the structure of the universe on large scales, but still have difficulty producing realistic galaxies.  My research focuses on observing the faint structures of nearby galaxies to find clues regarding their formation and subsequent evolution.   \\
+
+%My research interests are focused on observationally testing theories of galaxy formation and evolution.  In particular, my work has focused on detailed observations of nearby spiral galaxies.  The details of galaxy formation have remained elusive.  While simulations successfully reproduce the structure of the universe on large scales, there are still problems reconciling theory with galaxy scale.  
+
+
+
+\noindent{\bf IFU Observations of Nearby Galaxies}
+
+By coupling bundles of fiber-optic wires to a spectrograph, it is now possible to optically observe galaxies as three-dimensional data-cubes.  These observations can be used to measure velocity fields, as well as measure stellar ages and compositions.  An example of my IFU observations are shown in Figure~\ref{fig_vp}.
+
+I have recently completed a suite of observations of nearby galaxies with the VIRUS-P spectrograph.   Results from my first VIRUS-P project observing the outskirts of spiral galaxies have been published \upcite{yoachim12}.  
+
+In addition to the outskirts of galaxies, I am working on the following projects:
+
+\begin{itemize}
+\item{Giant Low Surface Brightness galaxies are rare systems that are several times larger than the Milky Way, and it is unclear how systems this large could form.  By stacking over 10 hours of IFU observations, we are able to measure the stellar velocities and ages in these systems and constrain recently proposed formation mechanisms.}
+
+\item{The Galaxy Zoo collaboration has identified a population of red spiral galaxies\upcite{Masters09}.  By eye, these systems look like typical spirals, yet they have red colors normally only seen in elliptical systems.  These objects have become controversial, with some authors claiming they are simply the high-mass end of the regular spiral sequence.  We are also using new IFU observations along with archival GALEX data to constrain the star formation histories of red spirals.  This analysis should make it clear if these are high-mass star forming galaxies, or systems which have managed to quench their star formation without undergoing a major merger.}
+
+\item{My collaborator David Radburn-Smith has taken observations with the Hubble Space Telescope of a galaxy where the disk of young stars is warped, while the old stars are not.  He has interpreted this as a sign the galaxy is accreting gas from it's surroundings.  We have just had our proposal approved and plan to measure the gas metallicity in the system with IFU spectroscopy.  This should allow us to directly observe how spiral galaxies get their gas.}
+\end{itemize}
+
+I anticipate wrapping up these projects and publishing the results over the next 3-4 years.\\
+
+\noindent{\bf VENGA, MaNGA, and LSST}
+
+I have started shifting my research focus to working with larger surveys.  I am currently an active member of three large collaborations, and plan to make them a focus for my future long-term research.
+
+I am a member of the VIRUS-P Exploration of Nearby Galaxies (VENGA) collaboration.  We have completed observations of 30 nearby galaxies with the VIRUS-P spectrograph, and are currently starting to analyze the data.  My role in this collaboration is primarily to study the edge-on galaxies in the sample.  Our initial paper describing the survey has been submitted, and the collaboration is starting to work on more detailed analysis of the sample.
+
+The Mapping Nearby Galaxies at APO (MaNGA) is an even larger collaboration I have joined with the goal of observing $\sim$10,000 galaxies with multiple deployable IFUs.  Prototype observations are currently being taken and MaNGA is an After Sloan 3 project expected to start regular observations in 2014.  I am currently working with the MaNGA team on issues related to data reduction.  My previous work with VIRUS-P showed the limits of using only optical spectra to constrain star formation histories, thus I will work with the MaNGA collaboration to explore how we can combine MaNGA observations with other data sets (SDSS, 2MASS, GALEX, etc.), to better constrain the star formation histories and compositions of nearby galaxies.
+
+My current postdoctoral position involves working with the Large Synoptic Survey Telescope (LSST) and am a member of the LSST Galaxies science working group.  LSST is a proposed wide-field 8-meter telescope which will begin observations in 2019.  LSST will observe the entire visible sky approximately twice a week, enabling the discovery of an unprecedented number of supernovae, asteroids, and other variable phenomenon.  Besides the transient sky, LSST will stack observations, providing an incredibly deep image of the southern sky.  This deep stack will be an excellent way to search for satellite galaxies around nearby massive systems as well as rare giant Low Surface Brightness galaxies.  I have been active in developing the calibration simulation software as well as an astrometric pipeline for LSST.  I am currently working with the LSST Dark Energy Collaboration to ensure the LSST calibration procedures will be adequate to place constraints on the nature of dark energy.  \\
+
+\noindent{\bf Research Projects for Undergraduates}\\
+As a postdoc, I've had great experiences supervising undergraduate research projects.  Below I list several projects that I would like to set some motivated undergraduates loose on.
+
+\begin{enumerate}
+
+\item{ {\bf Studying Satellite Galaxies}\\
+I have had several students work on observations of satellite galaxies around nearby massive galaxies.  Many telescopes have now deployed wide field CCD arrays, making it possible to image not just nearby galaxies, but their satellites as well.  These systems place some of the tightest constraints on cosmological simulations of galaxy formation.}
+
+\item{ {\bf Cepheid Variables in the HST Archive}\\
+With UW undergraduate Les McCommas, we developed a set of very accurate Cepheid variable star templates\upcite{Yoachim09b}.  We then demonstrated the ability to measure very accurate distances to nearby galaxies with these templates\upcite{McCommas09}.  Others have already used these templates to fit 827 Cepheids in M101\upcite{Shappee11}.  There are many more galaxies in the Hubble archive that should contain even more undiscovered Cepheids.
+}
+
+\item{ {\bf Dust Lane Morphology in Spiral Galaxies}\\
+With a sample of only ~50 galaxies, we found that only massive galaxies have well defined dust lanes\upcite{Dalcanton04}.  It is still not completely understood why this is the case.  The Sloan Digital Sky Survey has imaged a vast number of galaxies which can be matched to other surveys.  It would be great if someone measured dust lane properties as a function of mass for a larger sample of galaxies, spanning a larger range of galaxy types than our initial sample.
+}
+
+\item{ {\bf Searching for Faint Nearby Stars} \\
+as part of my LSST work, I have developed an astrometry package for measuring the parallax and proper motion of stars.  It would be relatively simple to search a variety of archives on-line (HST, Subaru, CFHT), and look for high parallax and high proper-motion stars.  Given the recent discovery of a planet in the $\alpha$ Cen system, finding new nearby stars should be of particular interest to planet hunters.
+}
+\end{enumerate}
+
+
+
+
+%\begin{figure}[h]
+%\begin{centering}
+%\includegraphics[width=2.13in]{Plots/NGC6155_finder.eps}
+%\includegraphics[width=2.13in]{Plots/NGC6155_muv.eps}
+%\includegraphics[width=2.13in]{Plots/NGC6155_gasv.eps}
+%\includegraphics[width=2.6in]{Plots/NGC6155_sb.eps}
+%\includegraphics[width=2.6in]{Plots/NGC6155_tau_age.eps}
+%\caption{An example of the analysis possible with IFU observations.  Upper Left:  SDSS image of the nearby galaxy NGC 6155.  Upper Middle:  The same galaxy observed with the VIRUS-P spectrograph, each point represents an optical fiber position.  Upper Right:  Velocity field measured from optical emission lines.   Lower Left:  The surface brightness profile of the galaxy exhibiting a break at 35\arcsec.  Lower Right:  The radial profile of the flux-weighted average stellar age as measured from spectral features.  By binning multiple fibers, we can reach very low surface brightness levels.  We find that the surface brightness profile break corresponds with a sharp increase in the average stellar age, consistent with recent simulations that find outer disk stars are composed of old stars that have scattered out from the interior\upcite{Roskar08}.  Red points are used for star declining star formation histories while blue points show increasing star formation rates.   Upcoming IFU surveys such as VENGA and MaNGA will make it possible to run similar analysis on tens to tens of thousands of galaxies.  \label{fig_vp}}
+%\end{centering}
+%\end{figure}
+
+
+
+
+\begin{footnotesize}
+%\bibliographystyle{apj}
+\bibliographystyle{plain}
+
+%\bibliography{/astro/users/yoachim/Dropbox/Papers/Bib_files/big_jabref}
+\bibliography{/Users/yoachim/Dropbox/Papers/Bib_files/big_jabref}
+
+%\begin{thebibliography}{}
+%\bibliographystyle{}
+%\end{thebibliography}
+\end{footnotesize}
+
+
+\end{document}
+
+-------------------------------------\\
+old stuff
+
+\noindent{\bf Thick Disk Stars}
+
+My thesis work measured the properties of thick disk stellar populations in a large sample of nearby edge-on galaxies.  Like the Milky Way, all disk galaxies seem to have an old, metal poor disk of stars that is dynamically hotter than young stars.  These ancient stars represent a fossil record of the early phases of galaxy formation.
+
+Using surface photometry, we characterized the structural properties of thick disks in a sample of 50 nearby edge-on galaxies\upcite{Yoachim06}.  We then followed up with spectroscopic observations of thin and thick disk dominated regions using the Gemini telescopes and the Apache Point 3.5m telescope.  
+
+Our Gemini observations allowed us to make kinematic measurements of thick disk stars outside the Milky Way for the first time.  We found that in the majority of cases, thick disk stars have kinematics similar to the MW thick disk.  In one surprising case, we found thick disk stars counter-rotating compared to thin disk stars showing that, in some cases, thick disks are built through the accretion of satellite galaxies\upcite{Yoachim05,Yoachim08a}.  In the course of my thick disk work, I developed a new technique for measuring stellar kinematics in low signal-to-noise spectra.  By using a novel spectrograph setup with the Apache Point 3.5m telescope, we were able to make the first observations of thick disk ages and metallicities outside the Milky Way\upcite{Yoachim08b}.
+
+While this was the largest survey of thick disks to date, many questions remain unanswered.  We observed thick disks in very late-type, bulgeless galaxies.  No similar survey of thick disk properties has been done in galaxies with large bulges.  We also found that thick disk stars are more prominent in low mass systems, and there is still no satisfactory theoretical explanation for this trend (Figure~\ref{thick_disks}).  %I am looking forward to expanding the study to include more galaxies, and collaborating with theorists to better explain our observed trends.  
+
+I would like to expand on these studies of edge-on galaxies in several ways.  For instance, I would like to observe a large sample of earlier-type galaxies to see if our observed trends hold in galaxies with massive bulges.  Also, we found that only massive galaxies support collapsed dust lanes\upcite{Dalcanton04}.  With SDSS and other upcoming large optical surveys combined with radio surveys, it should be possible to better determine where and how dust lanes form.  Archival work expanding my initial sample would be an excellent research opportunity for motivated undergraduates.  \\
+
+
+
+
+
+\noindent{\bf The Limit of Star Formation}
+
+Common sense implies that galaxies do not extend to an infinite radius, but where and how stellar disks end is an open question.  Recent simulations suggest the outer regions of spiral galaxies should be populated by ancient stars which have been scattered out from inner regions by bars and spiral arms\upcite{Roskar08,Martinez09}.  
+
+I am currently PI on a multi-semester observing program using the VIRUS-P spectrograph.  My current project was motivated by the uncertainty surrounding how stellar disks truncate.  The majority of galactic stellar disks are embedded in much larger gas disks.  We are looking to directly constrain where and why star formation stops in galaxies and leaves the outer regions as pure gas.  
+
+The VIRUS-P (Visible Integral field Replicable Unit Spectrograph Prototype) is a new instrument installed at the 2.7m Harlan J. Smith telescope and represents the largest field-of-view integral field unit currently available.  With VIRUS-P, it is possible to observe spectra of very low surface brightness regions in galaxies, such as the truncation regions of stellar disks.  
+
+
+
+Figure~\ref{fig_vp} shows some of our early results. VIRUS-P is returning excellent data, allowing us to measure stellar and gas kinematics in a large sample of galaxies.  Most impressively, we are able to make accurate measurements of the stellar populations down to very low surface brightness levels.  Although we observe breaks in the disk light profiles, these breaks do not uniformly correspond to changes in the stellar populations.  It would seem the physical processes involved in creating surface brightness breaks can be independent of the physics of star formation.  
+
+These results provide important insights to the efficiency of star formation in low density environments as well as constraints on chemical evolution models.  Early results from this project have been presented\upcite{Yoachim09c}, and an analysis of our full sample is forthcoming\upcite{yoachim12}.
+
+For this project, we have developed new spectral synthesis tools for characterizing stellar populations using integrated spectroscopy (Figure~\ref{pop_fit}).  This code is the first spectral synthesis routine that remains robust at low signal-to-noise and limited spectral range.  In the future, I hope to expand the code to include better treatment of metallicity evolution and more complicated star formation histories.  Applying this code to the upcoming VENGA survey would make an excellent student project. \\
+
+%These software tools will be expanded and used extensively in the upcoming VENGA survey of nearby galaxies.
+
+
+
+
+
+
+
+
+\noindent{\bf The VIRUS-P Exploration of Nearby Galaxies (VENGA) Survey}
+
+I am a member of the VIRUS-P Exploration of Nearby Galaxies (VENGA) survey.   The VENGA survey is targeting 30 nearby normal disk galaxies with the goal of characterizing the spatially resolved star formation rates across a range of environments.  This survey will expand on recent observations made with VIRUS-P\upcite{Blanc09,yoachim12}.
+
+The VENGA sample of galaxies was chosen to maximize the amount of multi-wavelength archival data that would be available.  Besides looking at star formation, planned science projects include characterizing diffuse ionized gas, bar driven structural evolution, and bulge formation.  The VENGA data set will enable numerous projects related to galactic stellar populations, chemical evolution, and dynamical modeling.  
+
+I am leading the effort to study the Diffuse Ionized Gas (DIG) in the edge-on galaxies observed by VENGA.  The DIG represents a poorly understood component of the interstellar medium.  It is unclear if this gas represents pristine intergalactic gas falling on the galaxy for the first time, or gas that has been blown out of the galaxy in a supernova driven galactic fountain.  Because we are measuring star formation rates from emission lines, the presence of a DIG can skew our calculated rates.  Thus, it is important we understand and characterize the DIG as much as possible.  The four edge-on galaxies in VENGA will double the number of systems where the DIG has been spectroscopically observed.   \\
+
+%I also have serendipitous observations of the DIG in nine additional galaxies.  \\
+
+
+
+
+\noindent{\bf Additional Projects}
+
+\begin{enumerate}
+\item{ {\bf Satellite Galaxies in the Sloan Survey Digital Sky Survey (SDSS) Stripe 82}\\
+There has been a recent deluge of contradictory results regarding the alignment of satellite galaxies relative to their hosts.  I am currently mentoring Matt Shane, a University of Texas undergraduate, on a project using SDSS DR7 data.   The co-added SDSS Stripe 82 data goes $\sim$2 magnitudes deeper than the rest of the SDSS survey, allowing the detection of multiple satellites per galaxy host.  Matt is currently using the Stripe 82 data to generate new catalogs of satellite galaxies that can be used to study the alignment of satellites relative to their hosts.  The catalogs can also be used to quantify the missing satellite problem for the first time outside the Local Group.  Satellite galaxies can also be used as kinematic tracers to measure the properties of their host galaxy's dark matter halo.  In the future, data from large surveys such as Pan-Starrs and LSST will allow for this project to be substantially expanded. }
+
+\item{ {\bf Observations of Oddball Galaxies}\\
+ I am PI on an accepted proposal to observe Giant Low Surface Brightness (GLSB) galaxies with the 2.7m telescope at McDonald Observatory.  GLSB galaxies possess stellar disks with diameters in excess of 100 kpc, an order of magnitude larger than the Milky Way disk and a size which is difficult to reconcile with cold dark matter galaxy formation scenarios.  More recent simulations suggest that GLSB galaxies could be the faded remnants of collisional ring galaxies.  Our new spectral synthesis routines will examine whether the stellar populations and kinematics of giant low surface brightness galaxies are consistent with such simulations.  Examples of our target collisional ring galaxies and GLSB systems are shown in Figure~\ref{GLSBs}.  
+
+I am also collaborating with Remco van den Bosch and Karen Masters on making IFU observations of red ``passive spiral'' galaxies discovered by the Galaxy Zoo project\upcite{Masters09}.  These are galaxies which morphologically resemble disk galaxies (they have spiral arms, and extended exponential light profiles), but have red colors more like ellipticals.  This suggests that somehow this small class of galaxies has lost its ability to form stars (i.e., lost their cold gas), but without undergoing a violent merger that would convert the system to an elliptical galaxy.  
+
+%With Josh Adams, a UT grad student, I am collaborating on IFU observations of LSB galaxies to measure inner dark matter density profiles. 
+}
+
+
+\item{ {\bf Cepheid Light Curve Templates}\\
+The extra-galactic distance ladder is a classic issue in astronomy.  With the deployment of ACS and WFC3 on HST, there has been a resurgence in observing resolved stellar populations in nearby galaxies, including variable stars.  I have used the OGLE database to construct high quality Cepheid light curve templates.  These published templates make it possible to measure Cepheid periods and average luminosities from sparsely sampled observations\upcite{Yoachim09b}.  My template software package was used by an undergraduate collaborator at the University of Washington to measure the distance to M81\upcite{McCommas09}.  In collaboration with Lucas Macri at Texas A\&M, I have expanded my templates to include three filters.  Dr. Macri and his graduate students are currently using these templates for HST distance measurements and investigating possible metallicity effects on Cepheid variable behavior.  
+An excellent student project would be to expand the code to include RR Lyrae stars as well as search archival Hubble images for variable stars that have been missed in previous studies.  }
+
+\end{enumerate}
+
+
+\noindent{\bf Future Projects--Utilizing Large Surveys}
+
+Many of my current research projects utilize the VIRUS-P spectrograph, this is only a prototype instrument.  The Hobby-Eberly Dark Energy Experiment (HETDEX) plans to replicate the VIRUS-P instrument on an industrial scale.  The end result will be an IFU with 33,600 fibers mounted on a 10-meter telescope.  The instrument will be used to make a blind survey of a large area of sky over several years.  The primary goal of the project is to observe a large number of Ly$\alpha$ emitting galaxies at high redshift to map baryon acoustic oscillations.  
+
+HETDEX will also observe 200,000 Milky Way stars and 10,000 nearby galaxies.  I am collaborating with the HETDEX team to work on projects relating to measuring Milky Way structure, galaxy kinematics, and stellar population synthesis.  
+
+In addition to the HETDEX collaboration, I am applying to join the Large Synoptic Survey Telescope (LSST) collaboration.  LSST is a planned 8.4m telescope with a large field of view, capable of imaging the entire sky in three nights.  Expected to see first light in 2015, LSST will image its survey region 1000 times over 10 years.  This data set will be ideal to expand my variable star templates, which can in turn be used to analyze space-based observations.  My SDSS projects looking for satellite galaxy systems can be radically expanded with the deeper data that will be provided my LSST, which will provide the largest data set of deep imaging of nearby galaxies.   The extra depth of LSST will enable me to expand my galaxy samples from dozens to thousands and LSST will observe thousands of variable stars in the Milky Way and surrounding galaxies.  
+% My previous research has focused on the faint regions of nearby galaxies ever collected.  Current surveys like SDSS and 2MASS are usually not deep enough for my purposes.
+
+\clearpage
+
+%xxx-make sure figures are reffed in text.
+
+
+
+
+
+%\begin{figure}
+%\begin{center}$
+%\begin{array}{cc}
+%\includegraphics[scale=.35]{Plots/IC1132_finder.eps} &
+%\includegraphics[scale=.35]{Plots/IC1132_muv.eps} \\
+%\includegraphics[scale=.25]{Plots/IC1132_starv.eps} \\
+%\includegraphics[scale=.35]{Plots/IC1132_sb.eps} &
+%\includegraphics[scale=.35]{Plots/IC1132_tau_age.eps}
+%\end{array}$
+%\end{center}
+%\caption{An example of how the VIRUS-P spectrograph can be used to measure stellar populations in nearby galaxies.  Upper Left:  The galaxy IC 1132 as seen in SDSS.  Upper Right:  The same galaxy as observed through VIRUS-P fibers.  Each fiber returns a 5 \AA\ resolution spectrum.  Lower Left:  Surface brightness profile measured with VIRUS-P.  The galaxy shows a clear profile break at a radius of 27\arcsec.  Lower Right:  The flux weighted stellar age profile measured with our new spectral synthesis technique for low SNR spectra.  Unlike theoretical predictions, we find no significant change in the stellar population beyond the marked break radius.  \label{fig_vp}}
+%-need to clean this up.  Example of observations made with the VIRUS-P spectrograph.  Upper left:  SDSS image of one of our target galaxies.  Upper Middle:  Image made from 738 spectra taken with the VIRUS-P spectrograph.  Upper Right:  Stellar velocity field measured from optical absorption features.  Lower Left:  The radial surface brightness profile measured from individual fibers.  The galaxy shows a clear downward break around 50\arcsec.  Lower Right:  The stellar age profile measured with our new spectral synthesis technique for low SNR spectra.  Unlike theoretical predictions, we find no significant change in the stellar population beyond the marked break radius.  xxx-expand on how VENGA will make similar observations of more galaxies\label{fig_vp}}
+%\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=3in]{Plots/thick_b_r.eps}
+\includegraphics[width=3in]{Plots/mass_fillbw.eps}
+\caption{Left:  $B-V$ color map of the edge-on galaxy FGC 780.  The blue star forming disk is embedded in a thicker red disk of stars.  Right:  Characterizing the masses of thick and thin disks, we found that lower mass systems have more prominent thick disk components. I would like to extend this work to include earlier-type galaxies as well as explore why the thick disk component becomes more prominent in low mass systems.\label{thick_disks}  }
+\end{figure}
+
+
+
+
+%\begin{figure}
+%\includegraphics[width=3in]{Plots/ceph1.eps}
+%\includegraphics[width=3in]{Plots/ceph2.eps}
+%\caption{Examples of Cepheids observed with HST and fitted with OGLE-based templates taken from McCommas et al., 2009\upcite{McCommas09}.   This is the first study to discover Cepheids with periods shorter than 10 days outside the Local Group.  \label{ceph_examples}}
+%\end{figure}
+
+
+
+
+
+
+
+\begin{SCfigure}[1][h]
+\includegraphics[width=4in]{Plots/finders.eps}
+\caption{Top row shows SDSS images of bright ring galaxies while the bottom row show typical giant low surface brightness galaxies.  Scale bars are 10 kpc.  With the dynamical measurements and stellar population constraints from IFU spectroscopy,  I will directly measure the star formation histories of GLSB disks.  These observations will show if GLSBs are faded rings or formed over a more extended time-scale.  \label{GLSBs} \vspace{1.5in} }
+\end{SCfigure}
+
+
+\begin{figure}[h]
+\includegraphics[width=3.25in]{Plots/IC1132spec_fit1.eps}  
+\includegraphics[width=3.25in]{Plots/IC1132chi_map1.eps}
+\caption{An example of our ability to fit extended star formation histories to integrated spectral observations.  On the left, the thick black line shows a spectrum observed by VIRUS-P while the red line shows the best-fitting model.  Residuals are also plotted.  On the right, the $\chi^2$ surface as a function of metallicity and exponential star formation rate decay timescale $\tau$ is plotted.  The minimum value is marked along with $\Delta\chi^2$ contours of 2.3,20, and 50. These figures show this region of the galaxy is dominated by older stars, but has a low level of recent continuing star formation.  \label{pop_fit} }
+\end{figure}
+
+
+
+%\begin{SCfigure}[1][h]
+%\begin{centering}
+%\includegraphics[width=2.in]{Plots/depth1.eps}
+%\includegraphics[width=2.in]{Plots/depth2.eps}
+%%\includegraphics[width=2.in]{Plots/depth_stack.eps}
+%\caption{Two Sloan $r$-band images around NGC 7428, a nearby isolated galaxy.  The figure on the left shows the standard SDSS DR7 image, while the right shows the Stripe 82 stacked image.  Images are set to the same scale and stretch.  With an extra 2 magnitudes of depth, the Stripe 82 data is ideal for searching for satellite galaxies.  Images are 4 arc-minutes on a side.  \label{NGC7428}}
+%\end{centering}
+%\end{SCfigure}
+
+
+
+
+
+
+\clearpage
+
+
+%\vspace{0.5cm}
+
+\begin{footnotesize}
+\bibliographystyle{plain}
+
+\bibliography{/astro/users/yoachim/Dropbox/Papers/Bib_files/big_jabref}
+%\begin{thebibliography}{}
+%\bibliographystyle{}
+%\end{thebibliography}
+\end{footnotesize}
+
+
+
+
+\end{document}
+
+
+% LocalWords:  yoachim VENGA Blanc Malin LSST ccc inp GLSB WFC McCommas multi
+% LocalWords:  GALFIT GLSBs Starrs Remco HETDEX MaNGA astrometric Shappee CFHT
+% LocalWords:  astrometry GALEX Radburn Roskar ACS Macri IC et Cepheids
